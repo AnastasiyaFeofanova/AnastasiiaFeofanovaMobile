@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite" verbose="1">
+    <test name="Simple Test" >
+        <groups>
+            <run>
+                <include name="HW2"/>
+            </run>
+        </groups>
+        <packages>
+            <package name= "nativeTests"/>
+            <package name= "webTests"/>
+        </packages>
+
+    </test>
+</suite>
+
